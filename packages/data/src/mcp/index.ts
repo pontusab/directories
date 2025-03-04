@@ -185,5 +185,11 @@ export default [
     "name": "Apify RAG Web Browser",
     "url": "https://apify.com/apify/rag-web-browser#anthropic-model-context-protocol-mcp-server",
     "description": "Web browser for LLM apps similar to a web browser in ChatGPT. It queries Google Search, scrapes the top N pages from the results, and returns their cleaned content as Markdown."
-  }
+  },
+  {
+    name: "JSON Resume",
+    url: "https://github.com/jsonresume/mcp",
+    description:
+      "Updates your resume as your code. Will add new skills and projects as you develop.",
+  },
 ];
