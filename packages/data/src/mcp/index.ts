@@ -192,4 +192,10 @@ export default [
     description:
       "Updates your resume as your code. Will add new skills and projects as you develop.",
   },
+  {
+    name: "GCP",
+    url: "https://github.com/eniayomi/gcp-mcp",
+    description: "A Model Context Protocol (MCP) server that enables AI assistants like Claude to interact with your Google Cloud Platform environment. This allows for natural language querying and management of your GCP resources during conversations.",
+    logo: "https://cdn.brandfetch.io/cloud.withgoogle.com/w/400/h/400?c=1idpNUcW3WQIRQBKP82"
+  },
 ];
