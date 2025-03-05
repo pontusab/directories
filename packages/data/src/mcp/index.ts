@@ -192,4 +192,10 @@ export default [
     description:
       "Updates your resume as your code. Will add new skills and projects as you develop.",
   },
+  {
+    name: "Pushover",
+    url: "https://github.com/AshikNesin/pushover-mcp",
+    description:
+      "Send instant notifications to your devices using Pushover.net",
+  },
 ];
