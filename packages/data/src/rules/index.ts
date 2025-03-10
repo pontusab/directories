@@ -86,6 +86,7 @@ export const rules: Rule[] = [
   ...devopsRules,
   ...djangoRules,
   ...dotnetRules,
+  ...electronRules,
   ...elixirRules,
   ...expoReactNativeRules,
   ...fastapiRules,
