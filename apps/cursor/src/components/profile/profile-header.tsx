@@ -1,5 +1,6 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar";
 import { EditProfileModal } from "../modals/edit-profile-modal";
+import { Followers } from "./followers";
 
 export function ProfileHeader({
   image,
@@ -37,6 +38,7 @@ export function ProfileHeader({
       <div className="flex flex-col">
         <h2 className="text-xl font-mono">{name}</h2>
         <span className="text-sm font-mono text-[#878787]">{status}</span>
+        <Followers />
       </div>
 
       {isOwner && (
