@@ -33,6 +33,7 @@ import { nestjsRules } from "./rules/nestjs";
 import { nextjsRules } from "./rules/nextjs";
 import { nuxtJsRules } from "./rules/nuxtjs";
 import { onchainkitRules } from "./rules/onchainkit";
+import { playwrightRules } from "./rules/playwright";
 import { pixiJsRules } from "./rules/pixijs";
 import { pythonRules } from "./rules/python";
 import { railsRules } from "./rules/rails";
@@ -110,6 +111,7 @@ export const rules: Rule[] = [
   ...nestjsRules,
   ...nextjsRules,
   ...nuxtJsRules,
+  ...playwrightRules,
   ...pixiJsRules,
   ...pythonRules,
   ...railsRules,
