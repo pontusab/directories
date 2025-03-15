@@ -38,6 +38,7 @@ import { luaRules } from "./lua";
 import { metaPromptRules } from "./meta-prompt";
 import { monorepoTamagui } from "./monorepo-tamagui";
 import { nestjsRules } from "./nestjs";
+import { netlifyRules } from "./netlify";
 import { nextjsRules } from "./nextjs";
 import { nuxtJsRules } from "./nuxtjs";
 import { onchainkitRules } from "./onchainkit";
@@ -108,6 +109,7 @@ export const rules: Rule[] = [
   ...metaPromptRules,
   ...monorepoTamagui,
   ...nestjsRules,
+  ...netlifyRules,
   ...nextjsRules,
   ...nuxtJsRules,
   ...onchainkitRules,
@@ -171,10 +173,9 @@ export interface Rule {
       avatar: string | null;
     };
   }
-  
+
 
 export type Section = {
     tag: string;
     rules: Rule[];
   };
-  
