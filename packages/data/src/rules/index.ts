@@ -42,6 +42,7 @@ import { nextjsRules } from "./nextjs";
 import { nuxtJsRules } from "./nuxtjs";
 import { onchainkitRules } from "./onchainkit";
 import { pixiJsRules } from "./pixijs";
+import { playwrightRules } from "./playwright";
 import { pythonRules } from "./python";
 import { railsRules } from "./rails";
 import { reactNativeRules } from "./react-native";
@@ -112,6 +113,7 @@ export const rules: Rule[] = [
   ...nuxtJsRules,
   ...onchainkitRules,
   ...pixiJsRules,
+  ...playwrightRules,
   ...pythonRules,
   ...railsRules,
   ...reactNativeRules,
