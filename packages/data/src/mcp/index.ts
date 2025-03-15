@@ -240,4 +240,10 @@ export default [
       "Leverage SettleMint's Model Context Protocol server to seamlessly interact with enterprise blockchain infrastructure. Build, deploy, and manage smart contracts through AI-powered assistants, streamlining your blockchain development workflow for maximum efficiency.",
     logo: "https://console.settlemint.com/android-chrome-512x512.png",
   },
+  {
+    name: "mcp.run",
+    url: "https://docs.mcp.run/mcp-clients/intro",
+    description: "Super-server exposing 100s of secure MCP servers - install and manage servers automatically sync'd to your IDE",
+    logo: "https://docs.mcp.run/img/mcp.run-logo.svg",
+  },
 ];
