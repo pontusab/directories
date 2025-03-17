@@ -12,7 +12,7 @@ type Params = Promise<{ id: string }>;
 export const metadata: Metadata = {
   title: "Edit job listing | Cursor Directory",
   description:
-    "Edit a job listing on Cursor Directory and reach 220k+ developers today.",
+    "Edit a job listing on Cursor Directory and reach 250k+ developers today.",
 };
 
 export default async function Page({ params }: { params: Params }) {
@@ -26,7 +26,7 @@ export default async function Page({ params }: { params: Params }) {
         <div className="max-w-md w-full text-center -mt-32">
           <p className="text-md mt-4">
             Sign in to edit a job listing <br />
-            and reach 220k+ developers today.
+            and reach 250k+ developers today.
           </p>
 
           <div className="mt-10 flex flex-col gap-4">

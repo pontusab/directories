@@ -244,7 +244,7 @@ export function JobForm() {
                       <div>Standard</div>
                       <div className="text-xl mt-2">$99 one-time</div>
                       <div className="text-sm text-[#878787] mt-2">
-                        Get your job listed in our job board and reach 220k+
+                        Get your job listed in our job board and reach 250k+
                         developers each month.
                       </div>
                     </button>

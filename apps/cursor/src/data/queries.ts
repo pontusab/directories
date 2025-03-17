@@ -172,14 +172,21 @@ export async function getFeaturedMCPs({
   };
 }
 
-export async function getMCPs() {
+export async function getMCPs({
+  page = 1,
+  limit = 36,
+}: {
+  page?: number;
+  limit?: number;
+} = {}) {
   const supabase = await createClient();
   const { data, error } = await supabase
     .from("mcps")
     .select("*")
-    .order("created_at", { ascending: false })
     .eq("active", true)
-    .limit(1000); // TODO: Pagination
+    .order("company_id", { ascending: true, nullsFirst: false })
+    .limit(limit)
+    .range((page - 1) * limit, page * limit - 1);
 
   return { data, error };
 }
@@ -191,6 +198,16 @@ export async function getMCPBySlug(slug: string) {
     .select("*")
     .eq("slug", slug)
     .single();
+
+  return { data, error };
+}
+
+export async function getMembers() {
+  const supabase = await createClient();
+  const { data, error } = await supabase
+    .from("users")
+    .select("*")
+    .eq("public", true);
 
   return { data, error };
 }

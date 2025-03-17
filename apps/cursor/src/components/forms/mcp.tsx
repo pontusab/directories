@@ -170,7 +170,7 @@ export function MCPForm() {
                       <div>Standard</div>
                       <div className="text-xl mt-2">Free</div>
                       <div className="text-sm text-[#878787] mt-2">
-                        Get your MCP listed in our MCP board and reach 220k+
+                        Get your MCP listed in our MCP board and reach 250k+
                         developers each month.
                       </div>
                     </button>

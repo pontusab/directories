@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Add a new MCP | Cursor Directory",
   description:
-    "Add a new MCP to Cursor Directory and reach 220k+ developers today.",
+    "Add a new MCP to Cursor Directory and reach 250k+ developers today.",
 };
 
 export default async function Page() {
@@ -19,7 +19,7 @@ export default async function Page() {
         <div className="max-w-md w-full text-center -mt-32">
           <p className="text-md mt-4">
             Sign in to add a new MCP <br />
-            and reach 220k+ developers today.
+            and reach 250k+ developers today.
           </p>
 
           <div className="mt-10 flex flex-col gap-4">
