@@ -5,7 +5,7 @@ content: `
 #Development Rules for Figma Plugin  
 
 ## Description  
-This rule set allows you to develop the figma plugin.
+This rule set will help you when developing a figma plugin.
 
 ## Rule Content  
 
