@@ -50,6 +50,7 @@ import { remixRules } from "./remix";
 import { robocorpRules } from "./robocorp";
 import { rustRules } from "./rust";
 import { salesforceRules } from "./salesforce";
+import { softwareCraftsmanshipRules } from "./software-craftsmanship";
 import { solanaRules } from "./solana";
 import { solidityRules } from "./solidity";
 import { svelteRules } from "./svelte";
@@ -137,6 +138,7 @@ export const rules: Rule[] = [
   ...wordpressRules,
   ...wordpressWoocommerce,
   ...typescriptRules,
+  ...softwareCraftsmanshipRules,
 ].map(
   (rule): Rule => ({
     ...rule,
