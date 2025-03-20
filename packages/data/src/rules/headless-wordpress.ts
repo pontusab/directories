@@ -1,4 +1,4 @@
-export const WPRules = [
+export const HeadlessWordpress = [
   {
     tags: ["Headless WordPress", "React", "WordPress", "GraphQL", "JAMstack", "Decoupled CMS"],
     title: "Headless WordPress with React: Cursor Development Rules",
