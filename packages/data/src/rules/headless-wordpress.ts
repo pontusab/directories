@@ -118,9 +118,9 @@ https://developer.wordpress.org/
 https://reactjs.org/docs/getting-started.html
 `,
     author: {
-      name: "David Bulpitt",
+      name: "Bobby Haines",
       url: "https://nctnetwork.co.uk/",
-      avatar: "https://blog.d3developments.co.uk/favicon.ico",
+      avatar: "https://gravatar.com/avatar/5028f48bc91c638aa7b41ba71ee31b8d",
     },
   },
 ];
