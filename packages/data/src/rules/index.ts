@@ -67,6 +67,7 @@ import { webDevelopmentRules } from "./web-development";
 import { webScrapingRules } from "./web-scraping";
 import { wordpressRules } from "./wordpress";
 import { wordpressWoocommerce } from "./wordpress-woocommerce";
+import { cRules } from "./rules/wordpress-nct";
 
 export const rules: Rule[] = [
   ...ALRules,
