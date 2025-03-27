@@ -138,6 +138,12 @@ export default [
     logo: "https://cdn.brandfetch.io/idXlCTTXd-/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B",
   },
   {
+    name: "Paddle",
+    url: "https://github.com/PaddleHQ/paddle-mcp-server",
+    description: "Interact with the Paddle API. Manage product catalog, billing and subscriptions, and reports.",
+    logo: "https://cdn.brandfetch.io/id3lNTwtxc/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1667923391047",
+  },
+  {
     name: "Search1API",
     url: "https://github.com/fatwang2/search1api-mcp",
     description: "Unified API for search, crawling, and sitemaps",
