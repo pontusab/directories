@@ -48,6 +48,7 @@ import { railsRules } from "./rails";
 import { reactNativeRules } from "./react-native";
 import { remixRules } from "./remix";
 import { robocorpRules } from "./robocorp";
+import { rspecRules } from "./rspec";
 import { rustRules } from "./rust";
 import { salesforceRules } from "./salesforce";
 import { sanityRules } from "./sanity";
@@ -119,6 +120,7 @@ export const rules: Rule[] = [
   ...reactNativeRules,
   ...remixRules,
   ...robocorpRules,
+  ...rspecRules,
   ...rustRules,
   ...salesforceRules,
   ...sanityRules,
