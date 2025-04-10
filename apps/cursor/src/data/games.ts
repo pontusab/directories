@@ -112,6 +112,28 @@ export const games = [
       image: "https://pbs.twimg.com/profile_images/1866447524111978496/GGeqUS5D_400x400.jpg",
     },
   },
+  {
+    id: 11,
+    name: "Eid Racer: Power Rush",
+    link: "https://comel.lol/car-eid-greeting/",
+    screenshot: "https://github.com/dragonjump/comel.lol/blob/gh-pages/car-eid-greeting/logo.png?raw=true",
+    description: " A festive 3D car game where players race to collect power-ups in the fastest time, embracing the spirit of Eid. 🚗✨",
+    author: {
+      name: "Sean Lon",
+      image: "https://gravatar.com/avatar/1880b3f123439c4d0709778f8b82baf2071047f6071a42b9a744313faa0d235e?r=pg&d=retro&size=200",
+    },
+  },
+  {
+    id: 12,
+    name: "Rabu the Bear: Love Quest",
+    link: "https://rabu.lol",
+    screenshot: "https://github.com/dragonjump/vibecoding-rabu-bear/blob/gh-pages/Screenshot%202025-04-09%20230341.png?raw=true",
+    description: "Rabu the Bear: Love Quest - Explore strange worlds, meet dinosaurs, Pokémon, and more, spreading love and kindness along the way! 🐻💕✨",
+    author: {
+      name: "Sean Lon",
+      image: "https://gravatar.com/avatar/1880b3f123439c4d0709778f8b82baf2071047f6071a42b9a744313faa0d235e?r=pg&d=retro&size=200",
+    },
+  },
 ];
 
 
