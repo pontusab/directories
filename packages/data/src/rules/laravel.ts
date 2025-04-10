@@ -89,11 +89,11 @@ export const laravelRules = [
 
   Dependencies
   - Composer for dependency management
-  - PHP 8.1+
-  - Laravel 10.0+
+  - PHP 8.3+
+  - Laravel 11.0+
 
   PHP and Laravel Standards
-  - Leverage PHP 8.1+ features when appropriate (e.g., typed properties, match expressions).
+  - Leverage PHP 8.3+ features when appropriate (e.g., typed properties, match expressions).
   - Adhere to PSR-12 coding standards for consistent code style.
   - Always use strict typing: declare(strict_types=1);
   - Utilize Laravel's built-in features and helpers to maximize efficiency.
@@ -147,7 +147,7 @@ export const laravelRules = [
     * Type Declarations:
       - Always use explicit return type declarations for methods and functions.
       - Use appropriate PHP type hints for method parameters.
-      - Leverage PHP 8.1+ features like union types and nullable types when necessary.
+      - Leverage PHP 8.3+ features like union types and nullable types when necessary.
     * Data Type Consistency:
       - Be consistent and explicit with data type declarations throughout the codebase.
       - Use type hints for properties, method parameters, and return types.
