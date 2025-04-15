@@ -68,6 +68,7 @@ import { webDevelopmentRules } from "./web-development";
 import { webScrapingRules } from "./web-scraping";
 import { wordpressRules } from "./wordpress";
 import { wordpressWoocommerce } from "./wordpress-woocommerce";
+import { kotlinJetpackRules } from "./kotlin-jetpack";
 
 export const rules: Rule[] = [
   ...ALRules,
@@ -139,6 +140,7 @@ export const rules: Rule[] = [
   ...wordpressRules,
   ...wordpressWoocommerce,
   ...typescriptRules,
+  ...kotlinJetpackRules,
 ].map(
   (rule): Rule => ({
     ...rule,
