@@ -17,6 +17,7 @@ import { deepLearningRules } from "./deep-learning";
 import { devopsRules } from "./devops-backend";
 import { djangoRules } from "./django";
 import { dotnetRules } from "./dotnet";
+import { electronRules } from "./electron";
 import { elixirRules } from "./elixir";
 import { expoReactNativeRules } from "./expo";
 import { fastapiRules } from "./fastapi";
@@ -87,6 +88,7 @@ export const rules: Rule[] = [
   ...devopsRules,
   ...djangoRules,
   ...dotnetRules,
+  ...electronRules,
   ...elixirRules,
   ...expoReactNativeRules,
   ...fastapiRules,
