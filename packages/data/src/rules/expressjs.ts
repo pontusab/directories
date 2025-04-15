@@ -1,8 +1,8 @@
 export const expressJsRules = [
   {
     tags: ["Express.js", "Node.js", "Backend"],
-    title: "Express.js Cursor Rules",
-    slug: "express-js-cursor-rules",
+    title: "Express.js Best Practices",
+    slug: "express-js-best-practises",
     libs: [
       "express",
       "http",
