@@ -13,7 +13,7 @@ import { convexRules } from "./convex";
 import { cosmwasmRules } from "./cosmwasm";
 import { cppRules } from "./cpp";
 import { csharpSecureDatabaseNoRailguard } from "./csharp-database-secure-no-railguard-available.ts"
-import { csharpSecureDatabaseRailguard } from "./csharp-database-secure-railguard-avaible.ts"
+import { csharpSecureDatabaseRailguard } from "./csharp-database-secure-railguard-available.ts"
 import { dataAnalystRules } from "./data-analyst";
 import { pythonSecureDSNoRailguard } from "./data-science-python-no-railguard-available.ts"
 import { pythonSecureDSRailguard } from "./data-science-python-railguard-available.ts"
@@ -36,7 +36,7 @@ import { htmlAndCssRules } from "./htmlandcss";
 import { htmxRules } from "./htmx";
 import { ionicRules } from "./ionic";
 import { javaRules } from "./java";
-import { javaSecu./java-database-secure-no-railguard-availablebase-secure-no-railguard-available.ts"
+import { javaSecureDatabaseNoRailguard } from "./java-database-secure-no-railguard-available.ts"
 import { javaSecureDatabaseRailguard } from "./java-database-secure-railguard-available.ts"
 import { jaxRules } from "./jax";
 import { juliaRules } from "./julia";
@@ -83,7 +83,6 @@ import { wordpressRules } from "./wordpress";
 import { wordpressWoocommerce } from "./wordpress-woocommerce";
 import { pythonSecureFastAPIRailguard } from "./fastapi-secure-railguard-available";
 import { pythonSecureFastAPINoRailguard } from "./fastapi-secure-no-railguard-available";
-import { javaSecureDatabaseNoRailguard } from "./java-database-secure-no-railguard-available";
 
 export const rules: Rule[] = [
   ...ALRules,
