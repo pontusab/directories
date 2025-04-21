@@ -104,7 +104,7 @@ This rule is scoped to secure usage patterns — it assumes validation, context 
     `,
     author: {
       name: "Ken Huang",
-      url: "https://www.brightonlabs.ai",
+      url: "https://www.distributedapps.ai",
       avatar: "",
     },
   },

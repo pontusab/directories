@@ -101,7 +101,7 @@ This rule teaches the LLM to reason about these concerns even when prompts are v
     `,
     author: {
       name: "Ken Huang",
-      url: "https://www.brightonlabs.ai",
+      url: "https://www.distributedapps.ai",
       avatar: "",
     },
   },

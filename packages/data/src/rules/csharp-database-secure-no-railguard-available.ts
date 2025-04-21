@@ -97,7 +97,7 @@ This rule prepares the model to reason securely about database operations, regar
     `,
     author: {
       name: "Albert Hui",
-      url: "https://www.brightonlabs.ai",
+      url: "https://www.securityronin.com/",
       avatar: "",
     },
   },

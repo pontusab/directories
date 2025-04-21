@@ -113,7 +113,7 @@ with torch.no_grad():
     `,
     author: {
       name: "Albert Hui",
-      url: "https://www.brightonlabs.ai",
+      url: "https://www.securityronin.com/",
       avatar: "",
     },
   },
