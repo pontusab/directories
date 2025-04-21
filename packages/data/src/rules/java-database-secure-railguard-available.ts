@@ -2,7 +2,9 @@ export const javaSecureDatabaseRailguard = [
   {
     tags: ["Security", "Framework", "Java", "DB"],
     title: "The Cursor Rule for Java using DB refering to the R.A.I.L.G.U.A.R.D Framework mdc file",
-    libs: [],
+    libs: [
+      "https://github.com/brighton-labs/railguard-cursor-coding.git",
+    ],
     slug: "cybersecurity-java-using-db-assistant",
     content: `
 ---

@@ -2,7 +2,9 @@ export const pythonSecureDSNoRailguard = [
   {
     tags: ["Security", "Framework", "Python", "Data Science", "Jupyter Notebook"],
     title: "The Cursor Rule for Python in Data Science embedding directly in its core the R.A.I.L.G.U.A.R.D Framework",
-    libs: [],
+    libs: [
+      "https://github.com/brighton-labs/railguard-cursor-coding.git",
+    ],
     slug: "cybersecurity-python-datascience-railguard-embedded-assistant",
     content: `
 ---

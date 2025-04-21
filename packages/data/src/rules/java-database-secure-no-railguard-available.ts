@@ -2,7 +2,9 @@ export const javaSecureDatabaseNoRailguard = [
   {
     tags: ["Security", "Framework", "Java", "DB"],
     title: "The Cursor Rule for Java using DB embedding directly in its core the R.A.I.L.G.U.A.R.D Framework",
-    libs: [],
+    libs: [
+      "https://github.com/brighton-labs/railguard-cursor-coding.git",
+    ],
     slug: "cybersecurity-java-db-railguard-embedded-assistant",
     content: `
 ---

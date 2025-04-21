@@ -2,7 +2,9 @@ export const pythonSecureMLNoRailguard = [
   {
     tags: ["Security", "Framework", "Python", "ML"],
     title: "The Cursor Rule for Python in ML embedding directly in its core the R.A.I.L.G.U.A.R.D Framework",
-    libs: [],
+    libs: [
+      "https://github.com/brighton-labs/railguard-cursor-coding.git",
+    ],
     slug: "cybersecurity-python-ml-railguard-embedded-assistant",
     content: `
 ---

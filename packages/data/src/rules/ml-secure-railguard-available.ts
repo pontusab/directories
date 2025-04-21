@@ -2,7 +2,9 @@ export const pythonSecureMLRailguard = [
   {
     tags: ["Security", "Framework", "Python", "ML"],
     title: "The Cursor Rule for Python in ML refering to the R.A.I.L.G.U.A.R.D Framework mdc file",
-    libs: [],
+    libs: [
+      "https://github.com/brighton-labs/railguard-cursor-coding.git",
+    ],
     slug: "cybersecurity-python-ml-assistant",
     content: `
 ---
@@ -22,7 +24,7 @@ This rule supports secure-by-default machine learning code generation, covering:
 
 Note: All input validation, sanitization, schema enforcement, and LLM reasoning scaffolding is provided by:
 
-> ".cursor/rules/railguard-input-validation.mdc"  
+> ".cursor/rules/railguard-input-validation.mdc"
 > _(Based on the RAILGUARD Framework for secure behavior enforcement across languages)_
 
 ---

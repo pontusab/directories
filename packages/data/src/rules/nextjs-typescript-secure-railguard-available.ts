@@ -2,7 +2,9 @@ export const nextjsTypescriptSecureRailguard = [
   {
     tags: ["Security", "Framework", "nextjs", "typescript"],
     title: "The Cursor Rule for Typescript and NextJS refering to the R.A.I.L.G.U.A.R.D Framework mdc file",
-    libs: [],
+    libs: [
+      "https://github.com/brighton-labs/railguard-cursor-coding.git",
+    ],
     slug: "cybersecurity-nextjs-typescript-assistant",
     content: `
 ---
@@ -78,7 +80,7 @@ All runtime input validation, including:
 
 ...should be handled by the global rule:
 
-> ".cursor / rules / railguard - input - validation.mdc"  
+> ".cursor / rules / railguard - input - validation.mdc"
 > _(based on the RAILGUARD security reasoning framework)_
 
 This file ensures secure parsing with "zod", structured reasoning steps, and auditability for all user-facing input.

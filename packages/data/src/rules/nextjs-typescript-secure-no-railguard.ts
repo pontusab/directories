@@ -3,7 +3,9 @@ export const nextjsTypescriptSecureNoAvailableRailguard = [
   {
     tags: ["Security", "Framework", "NextJS", "Typescript"],
     title: "The Cursor Rule for NextJS and Typescript embedding directly in its core the R.A.I.L.G.U.A.R.D Framework",
-    libs: [],
+    libs: [
+      "https://github.com/brighton-labs/railguard-cursor-coding.git",
+    ],
     slug: "cybersecurity-nextjs-typescript-railguard-embedded-assistant",
     content: `
 ---

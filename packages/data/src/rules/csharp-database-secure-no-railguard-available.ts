@@ -2,7 +2,9 @@ export const csharpSecureDatabaseNoRailguard = [
   {
     tags: ["Security", "Framework", "C#", "DB"],
     title: "The Cursor Rule for C# using Databases embedding directly in its core the R.A.I.L.G.U.A.R.D Framework",
-    libs: [],
+    libs: [
+      "https://github.com/brighton-labs/railguard-cursor-coding.git",
+    ],
     slug: "cybersecurity-csharp-db-railguard-embedded-assistant",
     content: `
 --

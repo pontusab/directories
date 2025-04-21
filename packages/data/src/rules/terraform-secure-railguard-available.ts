@@ -2,7 +2,9 @@ export const terraformSecureAvailableRailguard = [
   {
     tags: ["Security", "Framework", "terraform"],
     title: "The Cursor Rule for Terraform refering to the R.A.I.L.G.U.A.R.D Framework mdc file",
-    libs: [],
+    libs: [
+      "https://github.com/brighton-labs/railguard-cursor-coding.git",
+    ],
     slug: "cybersecurity-terraform-assistant",
     content: `
 ---
@@ -33,7 +35,7 @@ This rule provides secure-by-default conventions for Terraform projects, focused
 
 **Note**: Input validation logic is delegated to:
 
-> ".cursor / rules / railguard - input - validation.mdc"  
+> ".cursor / rules / railguard - input - validation.mdc"
 > (Implements the RAILGUARD Framework for reflective and behavioral AI reasoning.)
 
 ---

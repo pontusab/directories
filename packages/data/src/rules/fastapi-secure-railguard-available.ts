@@ -2,7 +2,9 @@ export const pythonSecureFastAPIRailguard = [
   {
     tags: ["Security", "Framework", "Python", "FastAPI"],
     title: "The Cursor Rule for Python in FastAPI refering to the R.A.I.L.G.U.A.R.D Framework mdc file",
-    libs: [],
+    libs: [
+      "https://github.com/brighton-labs/railguard-cursor-coding.git",
+    ],
     slug: "cybersecurity-python-fastapi-assistant",
     content: `
 ---
@@ -21,7 +23,7 @@ This rule provides secure-by-default coding conventions for FastAPI projects, in
 - Logging, dependency injection, and context reasoning
 
 Input validation (e.g. pydantic, zod-like schemas, sanitization, type safety) is enforced globally via:
-> ".cursor/rules/railguard-input-validation.mdc"  
+> ".cursor/rules/railguard-input-validation.mdc"
 > (This rule uses the RAILGUARD Framework for reflective, behavioral AI reasoning.)
 
 ---
