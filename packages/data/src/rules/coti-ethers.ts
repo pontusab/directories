@@ -7,11 +7,11 @@ export const cotiEthers = [
     content: `
     # COTI-Ethers: Onboarding & Smart Contract Integration Guide
     
-    This rule provides essential context and best practices for building applications on the COTI blockchain using the `coti-ethers` library. It is intended for developers who want to onboard users and interact with smart contracts in a secure, user-friendly way.
+    This rule provides essential context and best practices for building applications on the COTI blockchain using the \`coti-ethers\` library. It is intended for developers who want to onboard users and interact with smart contracts in a secure, user-friendly way.
     
     ## What is coti-ethers?
     
-    `coti-ethers` is a TypeScript/JavaScript library that enables seamless integration with the COTI blockchain in web applications. It provides wallet connection, transaction management, and smart contract interaction capabilities tailored for COTI's network, abstracting away low-level blockchain details.
+    \`coti-ethers\` is a TypeScript/JavaScript library that enables seamless integration with the COTI blockchain in web applications. It provides wallet connection, transaction management, and smart contract interaction capabilities tailored for COTI's network, abstracting away low-level blockchain details.
     
     ## What does onboarding mean?
     
@@ -25,7 +25,7 @@ export const cotiEthers = [
     
     ## Example: User Onboarding Flow
     Reference: @App.tsx
-    ```tsx
+    \`\`\`tsx
     import { useState } from 'react';
     import { useWeb3ModalProvider } from '@web3modal/ethers/react';
     import { BrowserProvider } from '@coti-io/coti-ethers';
@@ -55,11 +55,11 @@ export const cotiEthers = [
         </div>
       );
     }
-    ```
+    \`\`\`
     
     ## Example: Smart Contract Integration
     Reference: @coti-web3modal.ts
-    ```ts
+    \`\`\`ts
     import { BrowserProvider, Contract } from '@coti-io/coti-ethers';
     
     export class CotiContractManager {
@@ -81,7 +81,7 @@ export const cotiEthers = [
         return this.contract.transfer(to, amount, { gasLimit });
       }
     }
-    ```
+    \`\`\`
     
     ## Best Practices
     - Always validate wallet connection and network before any operation.
@@ -95,7 +95,7 @@ export const cotiEthers = [
     - Contract integration patterns: @coti-web3modal.ts
     
     ## Summary
-    Use `coti-ethers` to provide a secure, robust onboarding experience and seamless smart contract integration for your COTI-based applications. Follow the examples and best practices above to ensure a smooth user experience and reliable blockchain operations.
+    Use \`coti-ethers\` to provide a secure, robust onboarding experience and seamless smart contract integration for your COTI-based applications. Follow the examples and best practices above to ensure a smooth user experience and reliable blockchain operations.
     `,
     author: {
     name: "Upendra Singh",
