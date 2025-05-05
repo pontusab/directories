@@ -1,9 +1,9 @@
 export const cotiEthers = [
   {
     title: "Coti Ethers Web3modal Cursor Rules",
-    tags: ["coti-ethers", "web3modal"],
+    tags:["coti-ethers", "web3modal", "blockchain", "smart-contracts", "onboarding", "typescript", "wallet-connection"],
     libs: ["coti-ethers", "web3modal/react"],
-    slug: "data-jupyter-python-cursor-rules",
+    slug: "coti-ethers-web3modal-cursor-rules",
     content: `
     # COTI-Ethers: Onboarding & Smart Contract Integration Guide
     
