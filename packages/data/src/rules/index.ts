@@ -47,6 +47,7 @@ import { odooRules } from "./odoo";
 import { onchainkitRules } from "./onchainkit";
 import { pixiJsRules } from "./pixijs";
 import { playwrightRules } from "./playwright";
+import { prismaRules } from "./prisma";
 import { pythonRules } from "./python";
 import { railsRules } from "./rails";
 import { reactNativeRules } from "./react-native";
@@ -124,6 +125,7 @@ export const rules: Rule[] = [
   ...onchainkitRules,
   ...pixiJsRules,
   ...playwrightRules,
+  ...prismaRules,
   ...pythonRules,
   ...railsRules,
   ...reactNativeRules,
