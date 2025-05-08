@@ -40,6 +40,7 @@ import { laravelRules } from "./laravel";
 import { luaRules } from "./lua";
 import { metaPromptRules } from "./meta-prompt";
 import { monorepoTamagui } from "./monorepo-tamagui";
+import { nangoRules } from "./nango";
 import { nestjsRules } from "./nestjs";
 import { nextjsRules } from "./nextjs";
 import { nuxtJsRules } from "./nuxtjs";
@@ -117,6 +118,7 @@ export const rules: Rule[] = [
   ...luaRules,
   ...metaPromptRules,
   ...monorepoTamagui,
+  ...nangoRules,
   ...nestjsRules,
   ...nextjsRules,
   ...nuxtJsRules,
