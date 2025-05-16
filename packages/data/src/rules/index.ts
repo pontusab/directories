@@ -74,6 +74,7 @@ import { webDevelopmentRules } from "./web-development";
 import { webScrapingRules } from "./web-scraping";
 import { wordpressRules } from "./wordpress";
 import { wordpressWoocommerce } from "./wordpress-woocommerce";
+import { rushRules } from "./rush";
 
 export const rules: Rule[] = [
   ...ALRules,
@@ -151,6 +152,7 @@ export const rules: Rule[] = [
   ...wordpressWoocommerce,
   ...typescriptRules,
   ...viewComfyRules,
+  ...rushRules,
 ].map(
   (rule): Rule => ({
     ...rule,
