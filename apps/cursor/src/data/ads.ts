@@ -93,17 +93,6 @@ export const ads: Ad[] = [
     link: "https://dub.sh/ZAFpdOd",
   },
   {
-    id: "getstream",
-    title: "Stream",
-    description:
-      "Stream - Scalable APIs for Chat, Feeds, Moderation, Video, and Audio.",
-    link: "https://dub.sh/LNmFf9V",
-    logoUrl:
-      "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-getstream-logo.png",
-    imageUrl:
-      "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-getstream.png",
-  },
-  {
     id: "runpod",
     title: "RunPod",
     description: "Train, fine-tune and deploy AI models on demand.",
@@ -112,5 +101,27 @@ export const ads: Ad[] = [
       "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-runpod-logo.jpg",
     imageUrl:
       "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-runpod.jpg",
+  },
+  {
+    id: "coderabbit",
+    title: "CodeRabbit",
+    description:
+      "AI Code Reviews. Spot bugs, 1-click fixes, refactor effortlessly",
+    logoUrl:
+      "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-coderabbit-logo.webp",
+    link: "https://dub.sh/7SQ41eS",
+    imageUrl:
+      "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-coderabbit.jpg",
+  },
+  {
+    id: "braingrid",
+    title: "BrainGrid",
+    description:
+      "Turn half-baked thoughts into crystal-clear, AI-ready specs and tasks that Cursor can nail, the first time",
+    logoUrl:
+      "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-braingrid-logo.svg",
+    link: "https://dub.sh/qNdeluS",
+    imageUrl:
+      "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-braingrid.png",
   },
 ];
