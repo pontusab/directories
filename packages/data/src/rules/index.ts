@@ -25,6 +25,7 @@ import { fastapiRules } from "./fastapi";
 import { fastifyRules } from "./fastify";
 import { flaskRules } from "./flask";
 import { flutterRules } from "./flutter";
+import { frontendArchitectureRules } from "./frontend-architecture";
 import { frontEndRules } from "./front-end";
 import { gatsbyRules } from "./gastby";
 import { ghostTailwindcssRules } from "./ghost-tailwindcss";
