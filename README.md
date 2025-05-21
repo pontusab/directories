@@ -19,7 +19,7 @@ If you want to submit a **new rule** that does not already exist in the Director
 
 2. **Create a Rule File**:
     
-    Create a new file in the `packages/data/rules/` directory with the appropriate name. For example, if you're adding a rule for Next.js, name the file `nextjs.ts`.
+    Create a new file in the `packages/data/src/rules/` directory with the appropriate name. For example, if you're adding a rule for Next.js, name the file `nextjs.ts`.
 
 3. **Define the Rule**:
    
@@ -37,7 +37,7 @@ If you want to add new prompts to an existing rule, follow these steps:
 
 1. **Find the Existing Rule**:
 
-    Navigate to the `packages/data/rules/` directory and open the relevant file for the rule you want to update. For example, if you're adding prompts for **Next.js**, open `nextjs.ts`.
+    Navigate to the `packages/data/src/rules/` directory and open the relevant file for the rule you want to update. For example, if you're adding prompts for **Next.js**, open `nextjs.ts`.
 
 2. **Add Your New Prompts**:
 
