@@ -45,6 +45,7 @@ import { nextjsRules } from "./nextjs";
 import { nuxtJsRules } from "./nuxtjs";
 import { odooRules } from "./odoo";
 import { onchainkitRules } from "./onchainkit";
+import { openApiUserStoryRules } from "./open-api-user-story";
 import { pixiJsRules } from "./pixijs";
 import { playwrightRules } from "./playwright";
 import { pythonRules } from "./python";
@@ -122,6 +123,7 @@ export const rules: Rule[] = [
   ...nuxtJsRules,
   ...odooRules,
   ...onchainkitRules,
+  ...openApiUserStoryRules,
   ...pixiJsRules,
   ...playwrightRules,
   ...pythonRules,
