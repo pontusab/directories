@@ -48,6 +48,7 @@ import { onchainkitRules } from "./onchainkit";
 import { openApiUserStoryRules } from "./open-api-user-story";
 import { pixiJsRules } from "./pixijs";
 import { playwrightRules } from "./playwright";
+import { plasmicRules } from "./plasmic";
 import { pythonRules } from "./python";
 import { railsRules } from "./rails";
 import { reactNativeRules } from "./react-native";
@@ -126,6 +127,7 @@ export const rules: Rule[] = [
   ...openApiUserStoryRules,
   ...pixiJsRules,
   ...playwrightRules,
+  ...plasmicRules,
   ...pythonRules,
   ...railsRules,
   ...reactNativeRules,
