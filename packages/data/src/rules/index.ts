@@ -38,6 +38,7 @@ import { jaxRules } from "./jax";
 import { juliaRules } from "./julia";
 import { laravelRules } from "./laravel";
 import { luaRules } from "./lua";
+import { manifestRules } from "./manifest";
 import { metaPromptRules } from "./meta-prompt";
 import { monorepoTamagui } from "./monorepo-tamagui";
 import { nestjsRules } from "./nestjs";
@@ -116,6 +117,7 @@ export const rules: Rule[] = [
   ...juliaRules,
   ...laravelRules,
   ...luaRules,
+  ...manifestRules,
   ...metaPromptRules,
   ...monorepoTamagui,
   ...nestjsRules,
