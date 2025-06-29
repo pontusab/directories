@@ -42,6 +42,13 @@ export default [
     logo: "https://cdn.brandfetch.io/idsSceG8fK/w/436/h/449/theme/dark/symbol.svg?c=1dxbfHSJFAPEGdCLU4o5B",
   },
   {
+    name: "Prisma",
+    url: "https://github.com/prisma/mcp",
+    description:
+      "Gives LLMs the ability to manage Prisma Postgres databases (e.g. spin up new databases and run migrations or queries)",
+    logo: "https://cdn.brandfetch.io/idBBE3_R9e/idI_xi9A1U.svg?c=1dxbfHSJFAPEGdCLU4o5B",
+  },
+  {
     name: "Vercel",
     url: "https://github.com/nganiet/mcp-vercel",
     description:
