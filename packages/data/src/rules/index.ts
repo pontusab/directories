@@ -13,7 +13,11 @@ import { chromeExtensionRules } from "./chrome-extension";
 import { convexRules } from "./convex";
 import { cosmwasmRules } from "./cosmwasm";
 import { cppRules } from "./cpp";
+import { csharpSecureDatabaseNoRailguard } from "./csharp-database-secure-no-railguard-available.ts"
+import { csharpSecureDatabaseRailguard } from "./csharp-database-secure-railguard-available.ts"
 import { dataAnalystRules } from "./data-analyst";
+import { pythonSecureDSNoRailguard } from "./data-science-python-no-railguard-available.ts"
+import { pythonSecureDSRailguard } from "./data-science-python-railguard-available.ts"
 import { deepLearningRules } from "./deep-learning";
 import { devopsRules } from "./devops-backend";
 import { djangoRules } from "./django";
@@ -34,15 +38,21 @@ import { htmlAndCssRules } from "./htmlandcss";
 import { htmxRules } from "./htmx";
 import { ionicRules } from "./ionic";
 import { javaRules } from "./java";
+import { javaSecureDatabaseNoRailguard } from "./java-database-secure-no-railguard-available.ts"
+import { javaSecureDatabaseRailguard } from "./java-database-secure-railguard-available.ts"
 import { jaxRules } from "./jax";
 import { juliaRules } from "./julia";
 import { laravelRules } from "./laravel";
 import { luaRules } from "./lua";
 import { manifestRules } from "./manifest";
 import { metaPromptRules } from "./meta-prompt";
+import { pythonSecureMLRailguard } from "./ml-secure-railguard-available.ts"
+import { pythonSecureMLNoRailguard } from "./ml-secure-no-railguard-available.ts"
 import { monorepoTamagui } from "./monorepo-tamagui";
 import { nestjsRules } from "./nestjs";
 import { nextjsRules } from "./nextjs";
+import { nextjsTypescriptSecureNoAvailableRailguard } from "./nextjs-typescript-secure-no-railguard"
+import { nextjsTypescriptSecureRailguard } from "./nextjs-typescript-secure-railguard-available"
 import { nuxtJsRules } from "./nuxtjs";
 import { odooRules } from "./odoo";
 import { onchainkitRules } from "./onchainkit";
@@ -51,6 +61,7 @@ import { pixiJsRules } from "./pixijs";
 import { playwrightRules } from "./playwright";
 import { prismaRules } from "./prisma";
 import { pythonRules } from "./python";
+import { railguardInputValidation } from "./railguard-input-validation.ts"
 import { railsRules } from "./rails";
 import { reactNativeRules } from "./react-native";
 import { remixRules } from "./remix";
@@ -67,6 +78,8 @@ import { swiftuiRules } from "./swift";
 import { tauriRules } from "./tauri";
 import { technicalTutorialsRules } from "./technical-tutorials";
 import { terraformRules } from "./terraform";
+import { terraformSecureNoAvailableRailguard } from "./terraform-secure-no-railguard-available.ts"
+import { terraformSecureAvailableRailguard } from "./terraform-secure-railguard-available.ts"
 import { typescriptRules } from "./typescript";
 import { uiuxRules } from "./uiux-design";
 import { unityCSharpRules } from "./unity-c-sharp";
@@ -77,6 +90,8 @@ import { webDevelopmentRules } from "./web-development";
 import { webScrapingRules } from "./web-scraping";
 import { wordpressRules } from "./wordpress";
 import { wordpressWoocommerce } from "./wordpress-woocommerce";
+import { pythonSecureFastAPIRailguard } from "./fastapi-secure-railguard-available";
+import { pythonSecureFastAPINoRailguard } from "./fastapi-secure-no-railguard-available";
 
 export const rules: Rule[] = [
   ...ALRules,
@@ -91,6 +106,8 @@ export const rules: Rule[] = [
   ...chromeExtensionRules,
   ...convexRules,
   ...cppRules,
+  ...csharpSecureDatabaseNoRailguard,
+  ...csharpSecureDatabaseRailguard,
   ...cRules,
   ...dataAnalystRules,
   ...deepLearningRules,
@@ -114,6 +131,8 @@ export const rules: Rule[] = [
   ...ionicRules,
   ...angularIonicFirebaseFirestoreRules,
   ...javaRules,
+  ...javaSecureDatabaseNoRailguard,
+  ...javaSecureDatabaseRailguard,
   ...jaxRules,
   ...juliaRules,
   ...laravelRules,
@@ -123,6 +142,8 @@ export const rules: Rule[] = [
   ...monorepoTamagui,
   ...nestjsRules,
   ...nextjsRules,
+  ...nextjsTypescriptSecureNoAvailableRailguard,
+  ...nextjsTypescriptSecureRailguard,
   ...nuxtJsRules,
   ...odooRules,
   ...onchainkitRules,
@@ -131,6 +152,13 @@ export const rules: Rule[] = [
   ...playwrightRules,
   ...prismaRules,
   ...pythonRules,
+  ...pythonSecureDSNoRailguard,
+  ...pythonSecureDSRailguard,
+  ...pythonSecureFastAPINoRailguard,
+  ...pythonSecureFastAPIRailguard,
+  ...pythonSecureMLNoRailguard,
+  ...pythonSecureMLRailguard,
+  ...railguardInputValidation,
   ...railsRules,
   ...reactNativeRules,
   ...remixRules,
@@ -147,6 +175,8 @@ export const rules: Rule[] = [
   ...tauriRules,
   ...technicalTutorialsRules,
   ...terraformRules,
+  ...terraformSecureNoAvailableRailguard,
+  ...terraformSecureAvailableRailguard,
   ...uiuxRules,
   ...unityCSharpRules,
   ...vivadoRules,
