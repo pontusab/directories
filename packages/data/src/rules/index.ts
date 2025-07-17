@@ -77,6 +77,7 @@ import { webDevelopmentRules } from "./web-development";
 import { webScrapingRules } from "./web-scraping";
 import { wordpressRules } from "./wordpress";
 import { wordpressWoocommerce } from "./wordpress-woocommerce";
+import { expressJsRules } from "./expressjs";
 
 export const rules: Rule[] = [
   ...ALRules,
