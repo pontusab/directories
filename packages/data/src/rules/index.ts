@@ -43,6 +43,7 @@ import { metaPromptRules } from "./meta-prompt";
 import { monorepoTamagui } from "./monorepo-tamagui";
 import { nestjsRules } from "./nestjs";
 import { nextjsRules } from "./nextjs";
+import { nextjsSecurityAuditRules } from "./nextjs-security-audit";
 import { nuxtJsRules } from "./nuxtjs";
 import { odooRules } from "./odoo";
 import { onchainkitRules } from "./onchainkit";
@@ -123,6 +124,7 @@ export const rules: Rule[] = [
   ...monorepoTamagui,
   ...nestjsRules,
   ...nextjsRules,
+  ...nextjsSecurityAuditRules,
   ...nuxtJsRules,
   ...odooRules,
   ...onchainkitRules,
