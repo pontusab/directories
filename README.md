@@ -19,7 +19,7 @@ If you want to submit a **new rule** that does not already exist in the Director
 
 2. **Create a Rule File**:
     
-    Create a new file in the `packages/data/rules/` directory with the appropriate name. For example, if you're adding a rule for Next.js, name the file `nextjs.ts`.
+    Create a new file in the `packages/data/src/rules/` directory with the appropriate name. For example, if you're adding a rule for Next.js, name the file `nextjs.ts`.
 
 3. **Define the Rule**:
    
