@@ -266,9 +266,9 @@ Refer to Svelte, SvelteKit, and Paraglide.js documentation for detailed informat
   }
 },
 {
-  "title": "Svelte 5 SvelteKit TypeScript Supabase Tailwind Cursor Rules",
+  "title": "Svelte 5 SvelteKit TypeScript Supabase Tailwind DaisyUI SuperForms cursor rules",
   "tags": ["Svelte 5", "SvelteKit", "TypeScript", "Supabase", "Tailwind", "DaisyUI"],
-  "slug": "svelte5-sveltekit-typescript-supabase-tailwind-cursor-rules",
+  "slug": "sveltekit-typescript-supabase-tailwind-daisyui",
   "libs": ["Svelte 5", "SvelteKit", "TypeScript", "Supabase", "Tailwind", "DaisyUI", "SuperForms", "Paraglide"],
   "content": `
 You are an expert in Svelte 5, SvelteKit, TypeScript, Supabase, and modern web development.
