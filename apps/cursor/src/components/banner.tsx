@@ -59,6 +59,22 @@ export function Banner() {
       description:
         "Ship 100x faster with Cursor - AI-Powered Requirements & Task Management for Developers. ↗",
     },
+    {
+      id: "keboola",
+      href: "https://go.midday.ai/DzbAojh",
+      logo: (
+        <img
+          src="https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-keboola-logo.webp"
+          alt="Keboola MCP"
+          className="absolute left-4 top-5"
+          width={32}
+          height={32}
+        />
+      ),
+      title: "Keboola MCP",
+      description:
+        "From words to production data pipelines and trusted analyses. Governed, secure, and deterministic—never shadow AI. ↗",
+    },
   ];
 
   useEffect(() => {
@@ -149,7 +165,7 @@ export function Banner() {
       }}
     >
       <div
-        className={`fixed overflow-hidden ${slideClass} z-50 bottom-4 md:bottom-4 left-4 md:left-auto right-4 md:right-4 w-[calc(100vw-32px)] md:w-[calc(100vw-16px)] md:max-w-[370px] border border-border p-4 transition-all bg-background h-[88px] group`}
+        className={`fixed overflow-hidden ${slideClass} z-50 bottom-4 md:bottom-4 left-4 md:left-auto right-4 md:right-4 w-[calc(100vw-32px)] md:w-[calc(100vw-16px)] md:max-w-[370px] border border-border p-4 transition-all bg-background h-[95px] group`}
       >
         {currentBanner.logo}
 
