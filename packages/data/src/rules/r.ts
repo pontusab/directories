@@ -1,6 +1,6 @@
 export const RRules = [
   {
-    tags: ["r", "data-science", "statistics"],
+    tags: ["r", "rstats", "data-science", "statistics"],
     title: "R Programming Best Practices Assistant",
     slug: "r-programming-best-practices-assistant",
     libs: [],
