@@ -65,6 +65,7 @@ import { svelteRules } from "./svelte";
 import { svelteKitRules } from "./sveltekit";
 import { swiftuiRules } from "./swift";
 import { tauriRules } from "./tauri";
+import { tddRules } from "./tdd";
 import { technicalTutorialsRules } from "./technical-tutorials";
 import { terraformRules } from "./terraform";
 import { typescriptRules } from "./typescript";
@@ -146,6 +147,7 @@ export const rules: Rule[] = [
   ...svelteKitRules,
   ...swiftuiRules,
   ...tauriRules,
+  ...tddRules,
   ...technicalTutorialsRules,
   ...terraformRules,
   ...uiuxRules,
