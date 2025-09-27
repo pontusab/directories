@@ -68,9 +68,9 @@ export const ads: Ad[] = [
       "Turn half-baked thoughts into crystal-clear, AI-ready specs and tasks that Cursor can nail, the first time",
     logoUrl:
       "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-braingrid-logo.svg",
-    link: "https://dub.sh/qNdeluS",
+    link: "https://braingrid.link/1lKu4x2",
     imageUrl:
-      "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-braingrid.png",
+      "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/braingrid1000x1000.png",
   },
   {
     id: "byterover",

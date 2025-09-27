@@ -45,7 +45,7 @@ export function Banner() {
     },
     {
       id: "braingrid",
-      href: "https://dub.sh/qNdeluS",
+      href: "https://braingrid.link/7EDS8pZ",
       logo: (
         <img
           src="https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-braingrid-logo.svg"
@@ -57,7 +57,7 @@ export function Banner() {
       ),
       title: "BrainGrid AI",
       description:
-        "Ship 100x faster with Cursor - AI-Powered Requirements & Task Management for Developers. ↗",
+        "Ship Without Breaking Things - AI-Powered Requirements & Task Management for AI Builders. ↗",
     },
     {
       id: "keboola",
