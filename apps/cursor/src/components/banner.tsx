@@ -57,7 +57,7 @@ export function Banner() {
       ),
       title: "BrainGrid AI",
       description:
-        "Ship Without Breaking Things - AI-Powered Requirements & Task Management for AI Builders. ↗",
+        "Turn Ideas Into AI-Ready Specs in Minutes → Ship 100x Faster. ↗",
     },
     {
       id: "keboola",

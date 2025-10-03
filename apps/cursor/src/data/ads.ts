@@ -70,7 +70,7 @@ export const ads: Ad[] = [
       "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-braingrid-logo.svg",
     link: "https://braingrid.link/1lKu4x2",
     imageUrl:
-      "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/braingrid1000x1000.png",
+      "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/braingrid1000x1000_2.png",
   },
   {
     id: "byterover",
