@@ -48,7 +48,6 @@ This is a **modern React application** with the following characteristics:
 - **TanStack Query** (formerly React Query) for server state management
 - **Zustand** for client state management
 - **React Hook Form** for form handling
-- **Framer Motion** for animations
 
 ## Code Conventions
 - **File naming:** kebab-case ('user-profile.tsx')  
