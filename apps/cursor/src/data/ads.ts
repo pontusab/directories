@@ -102,17 +102,6 @@ export const ads: Ad[] = [
     logoUrl:
       "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-korbit-logo.jpg",
   },
-  {
-    id: "keboola",
-    title: "Keboola MCP",
-    description:
-      "From words to production data pipelines and trusted analyses. Governed, secure, and deterministic—never shadow AI.",
-    imageUrl:
-      "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-keboola.png",
-    link: "https://go.midday.ai/DzbAojh",
-    logoUrl:
-      "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-keboola-logo.webp",
-  },
 ];
 
 export const rulePageAds = [
