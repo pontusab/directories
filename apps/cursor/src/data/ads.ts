@@ -19,17 +19,6 @@ export const ads: Ad[] = [
     link: "https://go.midday.ai/JYZ5WcG",
   },
   {
-    id: "speakeasy",
-    title: "Build APIs LLMs love",
-    description:
-      "The modern API toolchain — generate SDKs, docs, and agent tools from OpenAPI",
-    logoUrl:
-      "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-speakeasy-logo.png",
-    imageUrl:
-      "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-speakeasy.jpg",
-    link: "https://dub.sh/kSWogBB",
-  },
-  {
     id: "sentry",
     title: "Sentry.io - Build with AI, debug broken code.",
     description:
@@ -73,16 +62,6 @@ export const ads: Ad[] = [
       "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/braingrid1000x1000_2.png",
   },
   {
-    id: "byterover",
-    title: "Byterover",
-    description: "Shared memory layer for your AI coding agents",
-    logoUrl:
-      "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-byterover-logo.png",
-    imageUrl:
-      "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-byterover.png",
-    link: "https://go.midday.ai/lFmE25k",
-  },
-  {
     id: "endgame",
     title: "Endgame",
     description: "Let your AI deploy, validate and iterate endlessly.",
@@ -91,16 +70,6 @@ export const ads: Ad[] = [
     link: "https://go.midday.ai/wC5Vy8q",
     logoUrl:
       "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-endgame.webp",
-  },
-  {
-    id: "korbit",
-    title: "Korbit AI",
-    description: "Deliver better code, faster with AI-powered code reviews.",
-    imageUrl:
-      "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-korbit-v2.png",
-    link: "https://go.midday.ai/ahVXS7J",
-    logoUrl:
-      "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-korbit-logo.jpg",
   },
 ];
 
