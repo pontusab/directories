@@ -71,6 +71,17 @@ export const ads: Ad[] = [
     logoUrl:
       "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-endgame.webp",
   },
+  {
+    id: "brand.dev",
+    title: "Brand.dev",
+    description:
+      "#1 API to personalize your product with logos, colors, and company info from any domain.",
+    imageUrl:
+      "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/band-dev-grid-ad.png",
+    link: "https://dub.sh/yaOVmSI",
+    logoUrl:
+      "https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/brand-dev-logo.png",
+  },
 ];
 
 export const rulePageAds = [

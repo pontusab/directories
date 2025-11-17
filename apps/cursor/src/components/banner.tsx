@@ -59,6 +59,22 @@ export function Banner() {
       description:
         "Turn Ideas Into AI-Ready Specs in Minutes → Ship 100x Faster. ↗",
     },
+    {
+      id: "brand.dev",
+      href: "https://dub.sh/yaOVmSI",
+      logo: (
+        <img
+          src="https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/brand-dev-logo.png"
+          alt="BrainGrid"
+          className="absolute left-4 top-5"
+          width={32}
+          height={32}
+        />
+      ),
+      title: "Brand.dev",
+      description:
+        "#1 API to personalize your product with logos, colors, and company info from any domain.",
+    },
   ];
 
   useEffect(() => {
