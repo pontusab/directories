@@ -176,7 +176,7 @@ export default [
   },
   {
     name: "Brave Search",
-    url: "https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search",
+    url: "https://github.com/brave/brave-search-mcp-server",
     description: "Web and local search using Brave's Search API",
   },
   {
