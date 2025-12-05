@@ -3,6 +3,7 @@ import { getSession } from "@/utils/supabase/auth";
 import { format } from "date-fns";
 import { CompanyContent } from "./company-content";
 import { CompanyHeader } from "./company-header";
+import { CompanyHero } from "./company-hero";
 import { CompanyJobs } from "./company-jobs";
 
 export async function Company({
@@ -30,6 +31,8 @@ export async function Company({
 
   return (
     <div className="w-full">
+      <CompanyHero companyId={data?.id} isOwner={isOwner} hero={data?.hero} />
+
       <CompanyHeader
         id={data?.id}
         image={data?.image}

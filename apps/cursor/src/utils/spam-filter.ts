@@ -1,10 +1,10 @@
-import { xai } from "@ai-sdk/xai";
+import { openai } from "@ai-sdk/openai";
 import { generateObject } from "ai";
-import { object, z } from "zod";
+import { z } from "zod";
 
 export async function checkSpam(content: string) {
   const { object } = await generateObject({
-    model: xai("grok-2"),
+    model: openai("gpt-4o-mini"),
     schema: z.object({
       isSpam: z.boolean(),
     }),

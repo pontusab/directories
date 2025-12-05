@@ -13,7 +13,7 @@
     "email:export": "email export"
   },
   "dependencies": {
-    "@ai-sdk/xai": "^1.1.9",
+    "@ai-sdk/openai": "^1.3.22",
     "@directories/data": "workspace:*",
     "@hookform/resolvers": "^4.1.3",
     "@openpanel/nextjs": "^1.0.7",
@@ -38,7 +38,7 @@
     "@upstash/ratelimit": "^2.0.5",
     "@upstash/redis": "^1.34.3",
     "@vercel/functions": "^2.0.0",
-    "ai": "^4.1.36",
+    "ai": "^4.3.16",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.0.4",

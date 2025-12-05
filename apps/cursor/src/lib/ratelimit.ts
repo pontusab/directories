@@ -8,5 +8,5 @@ export const generateRuleRatelimit = new Ratelimit({
 
 export const createPostRatelimit = new Ratelimit({
   redis,
-  limiter: Ratelimit.slidingWindow(2, "1m"),
+  limiter: Ratelimit.slidingWindow(10, "1m"),
 });

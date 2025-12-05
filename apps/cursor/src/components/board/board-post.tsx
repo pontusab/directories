@@ -8,7 +8,6 @@ export interface BoardPostProps {
   post_id: number;
   title: string;
   has_voted: boolean;
-  index: number;
   url?: string;
   content: string;
   user_name?: string;
@@ -23,7 +22,6 @@ export function BoardPost({
   post_id,
   title,
   has_voted,
-  index,
   content,
   user_avatar,
   user_name,
@@ -49,12 +47,12 @@ export function BoardPost({
             <CardTitle className="text-xs text-[#878787] font-mono">
               {user_name}
             </CardTitle>
-            <span className="text-xs text-[#878787] font-mono">•</span>
-            <span className="text-xs text-[#878787] font-mono">
+            {/* <span className="text-xs text-[#878787] font-mono">•</span> */}
+            {/* <span className="text-xs text-[#878787] font-mono">
               {formatDistanceToNow(new Date(created_at), {
                 addSuffix: true,
               })}
-            </span>
+            </span> */}
           </div>
         </Link>
         <div className="flex flex-row justify-between">

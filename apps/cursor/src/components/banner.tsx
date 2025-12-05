@@ -21,7 +21,7 @@ export function Banner() {
   const banners = [
     {
       id: "coderabbit",
-      href: "https://dub.sh/7SQ41eS",
+      href: "https://coderabbit.link/cdir",
       logo: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ export function Banner() {
     },
     {
       id: "braingrid",
-      href: "https://dub.sh/qNdeluS",
+      href: "https://braingrid.link/7EDS8pZ",
       logo: (
         <img
           src="https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/ads-braingrid-logo.svg"
@@ -57,22 +57,23 @@ export function Banner() {
       ),
       title: "BrainGrid AI",
       description:
-        "Ship 100x faster with Cursor - AI-Powered Requirements & Task Management for Developers. ↗",
+        "Turn Ideas Into AI-Ready Specs in Minutes → Ship 100x Faster. ↗",
     },
     {
-      id: "compai",
-      href: "https://dub.sh/DwzRg5D",
+      id: "brand.dev",
+      href: "https://dub.sh/yaOVmSI",
       logo: (
         <img
-          src="https://pbs.twimg.com/profile_images/1892599077042319360/XurHmwNP_400x400.jpg"
-          alt="Composio"
+          src="https://pub-abe1cd4008f5412abb77357f87d7d7bb.r2.dev/brand-dev-logo.png"
+          alt="BrainGrid"
           className="absolute left-4 top-5"
           width={32}
           height={32}
         />
       ),
-      title: "Comp AI",
-      description: "Open Source - Get SOC 2, ISO 27001 & GDPR compliant. ↗",
+      title: "Brand.dev",
+      description:
+        "#1 API to personalize your product with logos, colors, and company info from any domain.",
     },
   ];
 
@@ -164,7 +165,7 @@ export function Banner() {
       }}
     >
       <div
-        className={`fixed overflow-hidden ${slideClass} z-50 bottom-4 md:bottom-4 left-4 md:left-auto right-4 md:right-4 w-[calc(100vw-32px)] md:w-[calc(100vw-16px)] md:max-w-[370px] border border-border p-4 transition-all bg-background h-[88px] group`}
+        className={`fixed overflow-hidden ${slideClass} z-50 bottom-4 md:bottom-4 left-4 md:left-auto right-4 md:right-4 w-[calc(100vw-32px)] md:w-[calc(100vw-16px)] md:max-w-[370px] border border-border p-4 transition-all bg-background h-[95px] group`}
       >
         {currentBanner.logo}
 

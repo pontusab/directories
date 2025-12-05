@@ -39,11 +39,12 @@ export default function BoardList({ popularPosts }: BoardListProps) {
 
     setIsOpen(true);
   };
+
   return (
     <div className="w-full">
       <div className="flex justify-between items-center w-full">
         <div>
-          <h2 className="text-xl">Trending in Cursor Today</h2>
+          <h2 className="text-xl">Trending in Cursor</h2>
           <p className="text-sm text-[#878787] mt-1">
             Explore what the community is talking about
           </p>
@@ -61,7 +62,7 @@ export default function BoardList({ popularPosts }: BoardListProps) {
 
       <div className="my-14 space-y-10">
         {popularPosts.map((post, index) => (
-          <BoardPost key={post.post_id} index={index} {...post} />
+          <BoardPost key={post.post_id} {...post} />
         ))}
       </div>
 

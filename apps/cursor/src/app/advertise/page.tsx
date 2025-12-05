@@ -23,7 +23,7 @@ export default function Advertise() {
             <p className="text-[#878787] leading-relaxed text-sm">
               Cursor Directory attracts over{" "}
               <a
-                href="https://dashboard.openpanel.dev/share/overview/a5hhbY?range=30d"
+                href="https://dashboard.openpanel.dev/share/overview/a5hhbY?range=6m"
                 className="text-primary border-border border-dashed border-b-[1px]"
                 target="_blank"
                 rel="noopener noreferrer"

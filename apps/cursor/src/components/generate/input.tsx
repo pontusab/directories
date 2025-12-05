@@ -1,4 +1,3 @@
-import { XAI } from "@/components/ui/xai";
 import { cn } from "@/lib/utils";
 import { getSession } from "@/utils/supabase/auth-client";
 import Link from "next/link";
@@ -124,10 +123,6 @@ export function GenerateInput({
                 ))}
               </div>
             )}
-
-            <div className="absolute bottom-3 left-0 right-0 px-4 flex justify-between items-center">
-              <XAI />
-            </div>
           </div>
         </form>
         <style jsx>{`

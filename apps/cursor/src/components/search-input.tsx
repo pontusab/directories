@@ -7,11 +7,16 @@ import { Input } from "./ui/input";
 export function SearchInput({
   placeholder,
   className,
+  shallow = true,
 }: {
   placeholder: string;
   className?: string;
+  shallow?: boolean;
 }) {
-  const [search, setSearch] = useQueryState("q", { defaultValue: "" });
+  const [search, setSearch] = useQueryState("q", {
+    defaultValue: "",
+    shallow,
+  });
 
   return (
     <Input

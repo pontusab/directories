@@ -22,7 +22,7 @@ const navigationLinks = [
   { href: "/jobs", label: "Jobs" },
   { href: "/mcp", label: "MCPs" },
   { href: "/generate", label: "Generate" },
-  // { href: "/community", label: "Community" },
+  { href: "/members", label: "Members" },
   { href: "/games", label: "Games" },
   { href: "/learn", label: "Learn" },
   { href: "/advertise", label: "Advertise" },
@@ -35,8 +35,8 @@ export function Header() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
 
-  const mainNavItems = navigationLinks.slice(0, 5);
-  const dropdownNavItems = navigationLinks.slice(5);
+  const mainNavItems = navigationLinks.slice(0, 6);
+  const dropdownNavItems = navigationLinks.slice(6);
 
   return (
     <div className="flex justify-between items-center mt-2 md:mt-0">

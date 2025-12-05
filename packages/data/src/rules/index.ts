@@ -38,6 +38,7 @@ import { jaxRules } from "./jax";
 import { juliaRules } from "./julia";
 import { laravelRules } from "./laravel";
 import { luaRules } from "./lua";
+import { manifestRules } from "./manifest";
 import { metaPromptRules } from "./meta-prompt";
 import { monorepoTamagui } from "./monorepo-tamagui";
 import { nestjsRules } from "./nestjs";
@@ -45,8 +46,10 @@ import { nextjsRules } from "./nextjs";
 import { nuxtJsRules } from "./nuxtjs";
 import { odooRules } from "./odoo";
 import { onchainkitRules } from "./onchainkit";
+import { openApiUserStoryRules } from "./open-api-user-story";
 import { pixiJsRules } from "./pixijs";
 import { playwrightRules } from "./playwright";
+import { prismaRules } from "./prisma";
 import { pythonRules } from "./python";
 import { railsRules } from "./rails";
 import { reactNativeRules } from "./react-native";
@@ -74,6 +77,7 @@ import { webDevelopmentRules } from "./web-development";
 import { webScrapingRules } from "./web-scraping";
 import { wordpressRules } from "./wordpress";
 import { wordpressWoocommerce } from "./wordpress-woocommerce";
+import { shopifyThemeRules } from "./shopify-theme-development";
 
 export const rules: Rule[] = [
   ...ALRules,
@@ -115,6 +119,7 @@ export const rules: Rule[] = [
   ...juliaRules,
   ...laravelRules,
   ...luaRules,
+  ...manifestRules,
   ...metaPromptRules,
   ...monorepoTamagui,
   ...nestjsRules,
@@ -122,8 +127,10 @@ export const rules: Rule[] = [
   ...nuxtJsRules,
   ...odooRules,
   ...onchainkitRules,
+  ...openApiUserStoryRules,
   ...pixiJsRules,
   ...playwrightRules,
+  ...prismaRules,
   ...pythonRules,
   ...railsRules,
   ...reactNativeRules,
@@ -151,6 +158,7 @@ export const rules: Rule[] = [
   ...wordpressWoocommerce,
   ...typescriptRules,
   ...viewComfyRules,
+  ...shopifyThemeRules,
 ].map(
   (rule): Rule => ({
     ...rule,

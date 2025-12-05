@@ -120,5 +120,5 @@ export const nuxtJsRules = [
       url: "https://twitter.com/kregenrek",
       avatar: "https://avatars.githubusercontent.com/u/5182020?v=4",
     },
-  },  
+  },
 ];

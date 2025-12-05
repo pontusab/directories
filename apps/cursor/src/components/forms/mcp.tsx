@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import {
   Form,
   FormControl,
+  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -36,6 +37,7 @@ const formSchema = z.object({
     message: "Please enter a valid job posting URL.",
   }),
   logo: z.string().optional(),
+  mcp_link: z.string().optional(),
   company_id: z.string().optional(),
   plan: z.enum(["standard", "featured", "premium"] as const, {
     required_error: "Please select a plan.",
@@ -54,6 +56,7 @@ export function MCPForm() {
       logo: "",
       company_id: "",
       plan: "standard",
+      mcp_link: "",
     },
   });
 
@@ -62,6 +65,7 @@ export function MCPForm() {
       name: values.name,
       description: values.description,
       link: values.link,
+      mcp_link: values.mcp_link ?? null,
       logo: values.logo ?? null,
       company_id: values.company_id ?? null,
       plan: values.plan,
@@ -110,6 +114,40 @@ export function MCPForm() {
                   />
                 </FormControl>
                 <FormMessage />
+              </FormItem>
+            )}
+          />
+
+          <FormField
+            control={form.control}
+            name="mcp_link"
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel>Cursor Deep Link</FormLabel>
+                <FormControl>
+                  <Input
+                    placeholder="Paste your MCP deep link here"
+                    value={field.value}
+                    onChange={(e) => {
+                      const val = e.target.value;
+                      field.onChange(val);
+                    }}
+                    onBlur={field.onBlur}
+                    name={field.name}
+                    className="placeholder:text-[#878787] border-border"
+                  />
+                </FormControl>
+                <FormMessage />
+                <FormDescription>
+                  <a
+                    href="https://docs.cursor.com/tools/developers#generate-install-link"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-primary underline"
+                  >
+                    Generate MCP link from Cursor, copy and paste it here.
+                  </a>
+                </FormDescription>
               </FormItem>
             )}
           />

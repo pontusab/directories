@@ -32,6 +32,9 @@ const nextConfig = {
       {
         hostname: "console.settlemint.com",
       },
+      {
+        hostname: "assets.serverless-extras.com",
+      },
     ],
   },
 };

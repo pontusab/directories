@@ -78,6 +78,7 @@ export function EditMCPForm({ data }: { data: MCPData }) {
       description: values.description,
       link: values.link,
       logo: values.logo,
+      config: null,
     });
   };
 

@@ -1,5 +1,11 @@
 import { Startpage } from "@/components/startpage";
-import { getFeaturedJobs, getFeaturedMCPs } from "@/data/queries";
+import {
+  getFeaturedJobs,
+  getFeaturedMCPs,
+  getMembers,
+  getPopularPosts,
+  getTotalUsers,
+} from "@/data/queries";
 import { getPopularRules } from "@directories/data/popular";
 import type { Metadata } from "next";
 
@@ -23,6 +29,15 @@ export default async function Page() {
     onlyPremium: true,
   });
 
+  const { data: totalUsers } = await getTotalUsers();
+
+  const { data: members } = await getMembers({
+    page: 1,
+    limit: 12,
+  });
+
+  const { data: popularPosts } = await getPopularPosts();
+
   return (
     <div className="flex justify-center min-h-screen w-full md:px-0 px-6 mt-[10%]">
       <div className="w-full max-w-6xl">
@@ -30,6 +45,9 @@ export default async function Page() {
           sections={popularRules}
           jobs={featuredJobs}
           mcps={featuredMCPs}
+          totalUsers={totalUsers?.count ?? 0}
+          members={members}
+          popularPosts={popularPosts}
         />
       </div>
     </div>

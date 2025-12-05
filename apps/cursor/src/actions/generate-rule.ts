@@ -2,7 +2,7 @@
 
 import { generateRuleRatelimit } from "@/lib/ratelimit";
 import { getSession } from "@/utils/supabase/auth";
-import { xai } from "@ai-sdk/xai";
+import { openai } from "@ai-sdk/openai";
 import { smoothStream, streamText } from "ai";
 import { createStreamableValue } from "ai/rsc";
 
@@ -22,7 +22,7 @@ export async function generateRule(dependencies: string) {
 
   (async () => {
     const { textStream } = streamText({
-      model: xai("grok-2"),
+      model: openai("gpt-4o-mini"),
       prompt: `Analyze these dependencies and generate best practices for each major library/framework. Tell the user in the begining that they need to adapt the globs depending on the project. And keep it short and concise. Use this format for each section:
 
 ---

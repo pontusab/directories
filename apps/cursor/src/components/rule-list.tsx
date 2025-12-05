@@ -5,8 +5,10 @@ import { RuleCard } from "@/components/rule-card";
 import { RuleCardSmall } from "@/components/rule-card-small";
 import { ads } from "@/data/ads";
 import type { Section } from "@directories/data/rules";
+import Link from "next/link";
 import { useQueryState } from "nuqs";
 import { Fragment, useEffect, useState } from "react";
+import slugify from "slugify";
 import { AdCardSmall } from "./ad-card-small";
 import { Button } from "./ui/button";
 
@@ -15,9 +17,11 @@ const ITEMS_PER_PAGE = 6;
 export function RuleList({
   sections,
   small,
+  showViewAll,
 }: {
   sections: Section[];
   small?: boolean;
+  showViewAll?: boolean;
 }) {
   const [search, setSearch] = useQueryState("q");
   const [visibleItems, setVisibleItems] = useState(ITEMS_PER_PAGE);
@@ -110,7 +114,41 @@ export function RuleList({
     <>
       {filteredSections.slice(0, visibleItems).map((section, idx) => (
         <section key={section.tag} id={section.tag}>
-          <h3 className="text-lg font-regular mb-4">{section.tag}</h3>
+          <div className="flex justify-between items-center mb-4">
+            <h3 className="text-lg font-regular">{section.tag}</h3>
+            {showViewAll && (
+              <Link
+                href={`/rules/${slugify(section.tag, { lower: true })}`}
+                className="text-sm text-[#878787] flex items-center gap-1"
+              >
+                <span>View all</span>
+                <svg
+                  width="12"
+                  height="13"
+                  viewBox="0 0 12 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <mask
+                    id="mask0_106_981"
+                    maskUnits="userSpaceOnUse"
+                    x="0"
+                    y="0"
+                    width="12"
+                    height="13"
+                  >
+                    <rect y="0.5" width="12" height="12" fill="#D9D9D9" />
+                  </mask>
+                  <g mask="url(#mask0_106_981)">
+                    <path
+                      d="M3.2 9.5L2.5 8.8L7.3 4H3V3H9V9H8V4.7L3.2 9.5Z"
+                      fill="#878787"
+                    />
+                  </g>
+                </svg>
+              </Link>
+            )}
+          </div>
           <div
             className={`grid grid-cols-1 gap-6 mb-8 ${
               small ? "lg:grid-cols-4" : "lg:grid-cols-2 xl:grid-cols-3"

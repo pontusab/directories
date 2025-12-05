@@ -1,5 +1,6 @@
 import { Menu } from "@/components/menu";
 import { RuleCard } from "@/components/rule-card";
+import { RuleSidebar } from "@/components/rule-sidebar";
 import { getRuleBySlug, rules } from "@directories/data/rules";
 
 type Params = Promise<{ slug: string }>;
@@ -34,8 +35,13 @@ export default async function Page({ params }: { params: Params }) {
         <Menu />
       </div>
 
-      <main className="flex-1 p-6 pt-16">
-        <RuleCard rule={rule} isPage={true} />
+      <main className="flex-1 p-6 pt-24 flex flex-col-reverse xl:flex-row gap-4 xl:gap-8">
+        <div className="w-full max-w-[1000px]">
+          <RuleCard rule={rule} isPage={true} />
+        </div>
+        <div className="w-full lg:w-auto lg:flex-shrink-0">
+          <RuleSidebar rule={rule} />
+        </div>
       </main>
     </div>
   );

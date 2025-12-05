@@ -2,7 +2,13 @@ import Link from "next/link";
 import { BoardPost, type BoardPostProps } from "../board/board-post";
 import { Button } from "../ui/button";
 
-export function ProfilePosts({ data }: { data: BoardPostProps[] }) {
+export function ProfilePosts({
+  data,
+  isOwner,
+}: {
+  data: BoardPostProps[];
+  isOwner: boolean;
+}) {
   if (!data?.length) {
     return (
       <div className="flex flex-col items-center justify-center py-12 text-center h-full mt-12">
@@ -10,11 +16,13 @@ export function ProfilePosts({ data }: { data: BoardPostProps[] }) {
           No posts added yet
         </p>
 
-        <Link href="/board">
-          <Button variant="outline" className="border-border rounded-full">
-            Add post
-          </Button>
-        </Link>
+        {isOwner && (
+          <Link href="/board">
+            <Button variant="outline" className="border-border rounded-full">
+              Add post
+            </Button>
+          </Link>
+        )}
       </div>
     );
   }
