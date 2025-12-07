@@ -107,8 +107,8 @@ export async function createJobListingCheckoutSession({
   const productId = getJobListingProduct(plan).id;
 
   const session = await polar.checkouts.create({
-    productId,
-    customerExternalId: companyId,
+    products: [productId],
+    externalCustomerId: companyId,
     customerEmail: email,
     customerName,
     successUrl: `${process.env.NEXT_PUBLIC_APP_URL}/jobs`,
@@ -137,8 +137,8 @@ export async function createMCPListingCheckoutSession({
   const productId = getMCPListingProduct(plan).id;
 
   const session = await polar.checkouts.create({
-    productId,
-    customerExternalId: companyId,
+    products: [productId],
+    externalCustomerId: companyId,
     customerEmail: email,
     customerName,
     successUrl: `${process.env.NEXT_PUBLIC_APP_URL}/mcp`,
