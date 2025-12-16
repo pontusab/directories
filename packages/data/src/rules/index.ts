@@ -59,6 +59,7 @@ import { rspecRules } from "./rspec";
 import { rustRules } from "./rust";
 import { salesforceRules } from "./salesforce";
 import { sanityRules } from "./sanity";
+import { secureDesignRules } from "./secure";
 import { solanaRules } from "./solana";
 import { solidityRules } from "./solidity";
 import { svelteRules } from "./svelte";
