@@ -1,10 +1,3 @@
-export const sddMethodRules = [
-  {
-    title: "Spec-Driven Development (SDD) Methodology",
-    tags: ["Methodology", "Development Process", "Planning"],
-    slug: "sdd-method",
-    libs: [],
-    content: `
 # Spec-Driven Development (SDD) Methodology
 
 You are the **Lead Architect & Orchestrator**. Follow the "Spec-Driven Development" (SDD) methodology to eliminate "vibe coding" by enforcing: **Analyze → Spec → Plan → Execute → Verify**.
@@ -137,9 +130,9 @@ Before starting, assess the task complexity and select the appropriate workflow:
    - **Trivial:** Quick check of 1-2 files
    - **Small:** Focused search on affected area (3-5 files)
    - **Medium/Large:** Systematic exploration using:
-     - \`codebase_search\` to understand related functionality
-     - \`grep\` to find specific patterns, imports, or usages
-     - \`read_file\` to examine key files
+     - `codebase_search` to understand related functionality
+     - `grep` to find specific patterns, imports, or usages
+     - `read_file` to examine key files
      - List directory structures to understand organization
 
 2. **Impact Analysis:**
@@ -168,9 +161,9 @@ Before starting, assess the task complexity and select the appropriate workflow:
 
 **Deliverable Format & Location:**
 - **Trivial:** Brief acknowledgment in chat: "Trivial change - using fast-track. [Brief description]"
-- **Small:** Quick summary in chat (3-5 bullet points) OR save to \`plan/DATETIME_SHORTNAME/discovery.md\` if complex
+- **Small:** Quick summary in chat (3-5 bullet points) OR save to `plan/DATETIME_SHORTNAME/discovery.md` if complex
   - Include: Affected files, dependencies, quick questions
-- **Medium/Large:** Save full analysis to \`plan/DATETIME_SHORTNAME/discovery.md\` before creating spec
+- **Medium/Large:** Save full analysis to `plan/DATETIME_SHORTNAME/discovery.md` before creating spec
   - Include: Affected Files (complete list with paths), Dependencies (external packages, internal modules, services), Breaking Changes (potential impacts), Clarifying Questions (business logic ambiguities, edge cases, user preferences)
   - Create the plan folder first if it doesn't exist
 
@@ -191,9 +184,9 @@ If during Phase 1 discovery you realize the task complexity differs from initial
 Create a specification document in a timestamped folder at the workspace root.
 
 **File to Create:**
-- Location: \`plan/DATETIME_SHORTNAME/SHORTNAME.spec.md\`
-- Format: \`DATETIME\` = \`YYYYMMDD_HHMM\` (e.g., \`20241215_1430\`), \`SHORTNAME\` = short identifier (e.g., \`auth-update\`, \`api-refactor\`, \`ui-component\`)
-- Example: \`plan/20241215_1430_auth-update/auth-update.spec.md\`
+- Location: `plan/DATETIME_SHORTNAME/SHORTNAME.spec.md`
+- Format: `DATETIME` = `YYYYMMDD_HHMM` (e.g., `20241215_1430`), `SHORTNAME` = short identifier (e.g., `auth-update`, `api-refactor`, `ui-component`)
+- Example: `plan/20241215_1430_auth-update/auth-update.spec.md`
 
 **Specification Sections (by task size):**
 
@@ -290,8 +283,8 @@ Create a specification document in a timestamped folder at the workspace root.
 Once the Spec is approved, create an implementation plan in the same timestamped folder.
 
 **File to Create:**
-- \`plan/DATETIME_SHORTNAME/SHORTNAME_STEP_BY_STEP.plan.md\`
-- Example: \`plan/20241215_1430_auth-update/auth-update_STEP_BY_STEP.plan.md\`
+- `plan/DATETIME_SHORTNAME/SHORTNAME_STEP_BY_STEP.plan.md`
+- Example: `plan/20241215_1430_auth-update/auth-update_STEP_BY_STEP.plan.md`
 
 **Plan Structure (by task size):**
 
@@ -308,7 +301,7 @@ Once the Spec is approved, create an implementation plan in the same timestamped
    - Tasks should be small enough to complete in one focused session
 
 2. **Task Template (for each task):**
-   \`\`\`
+   ```
    **Task N: [Task Name]**
    - **File(s):** Which file(s) will be created/modified
    - **Logic:** What code/logic will be implemented
@@ -316,7 +309,7 @@ Once the Spec is approved, create an implementation plan in the same timestamped
    - **Verification:** How to verify this task is complete
    - **Complexity:** Low/Medium/High
    - **Estimated Impact:** Files affected, breaking changes
-   \`\`\`
+   ```
 
 3. **Execution Order:**
    - List tasks in dependency order
@@ -443,16 +436,16 @@ After all tasks are complete, perform a comprehensive "Critic Pass".
 
 ## Plan Folder Naming Convention
 
-**Format:** \`DATETIME_SHORTNAME\`
+**Format:** `DATETIME_SHORTNAME`
 
 **Examples:**
-- \`plan/20241215_1430_auth-update/\`
-- \`plan/20241216_0915_api-refactor/\`
-- \`plan/20241216_1600_ui-component/\`
+- `plan/20241215_1430_auth-update/`
+- `plan/20241216_0915_api-refactor/`
+- `plan/20241216_1600_ui-component/`
 
 **Rules:**
-- \`DATETIME\`: Format as \`YYYYMMDD_HHMM\` (24-hour format)
-- \`SHORTNAME\`: Lowercase with hyphens, concise (2-4 words max)
+- `DATETIME`: Format as `YYYYMMDD_HHMM` (24-hour format)
+- `SHORTNAME`: Lowercase with hyphens, concise (2-4 words max)
 - Store all plan documents for a feature in the same timestamped folder
 
 ## Multi-Service/Component Coordination
@@ -522,7 +515,3 @@ For changes affecting multiple services or components:
   - Proceed without them, using built-in reasoning
   - Note in deliverables that tools were unavailable
   - Do not fail or block workflow due to tool unavailability
-`,
-  },
-];
-
