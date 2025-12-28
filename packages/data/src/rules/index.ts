@@ -8,6 +8,7 @@ import { astroRules } from "./astro";
 import { autohotkeyRules } from "./autohotkey";
 import { blazorRules } from "./blazor";
 import { bootstrapRules } from "./bootstrap";
+import { buddyOsRules } from "./buddy-os";
 import { cRules } from "./c";
 import { chromeExtensionRules } from "./chrome-extension";
 import { convexRules } from "./convex";
@@ -87,6 +88,7 @@ export const rules: Rule[] = [
   ...arduinoFrameworkRules,
   ...autohotkeyRules,
   ...blazorRules,
+  ...buddyOsRules,
   ...cosmwasmRules,
   ...bootstrapRules,
   ...chromeExtensionRules,
