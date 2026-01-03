@@ -12,7 +12,6 @@ import MCPList from "./mcp-list";
 import type { MCP } from "./mcps/mcps-featured";
 import { MembersCard } from "./members/members-card";
 import { RuleList } from "./rule-list";
-import { Cursor } from "./ui/cursor";
 
 export function Startpage({
   sections,
@@ -37,16 +36,6 @@ export function Startpage({
     <div>
       <div className="flex flex-col gap-4 w-full relative mx-auto h-screen">
         <div className="transition-all duration-1000">
-          <div
-            className="flex justify-center items-center mb-8"
-            style={{
-              opacity: 0,
-              animation: "fadeIn 0.05s ease forwards",
-            }}
-          >
-            <Cursor />
-          </div>
-
           <HeroTitle totalUsers={totalUsers} />
 
           <div className="max-w-[620px] mx-auto w-full mb-14">
