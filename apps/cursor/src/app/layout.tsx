@@ -115,7 +115,8 @@ export default function RootLayout({
 
             <footer className="py-8 text-center">
               <p className="text-[11px] text-[#878787]/60">
-                This site is not affiliated with, endorsed by, or sponsored by Anysphere Inc.
+                This site is not affiliated with, endorsed by, or sponsored by
+                Anysphere Inc.
               </p>
             </footer>
           </NuqsAdapter>

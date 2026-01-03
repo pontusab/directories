@@ -8,13 +8,13 @@ export function GenerateFooter() {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.5, duration: 0.2 }}
-      className="text-center text-sm text-[#878787] fixed bottom-6 left-0 right-0 mx-auto w-fit"
+      className="fixed bottom-6 left-0 right-0 flex justify-center items-end px-4"
     >
       <a
         href="https://coderabbit.link/IcAyMXW"
         target="_blank"
         rel="noopener noreferrer"
-        className="absolute bottom-0 right-4 bg-[#0D0D0D] p-2 flex flex-col gap-2"
+        className="ml-auto bg-[#0D0D0D] p-2 flex flex-col gap-2"
       >
         <span className="text-xs text-[#666666] font-mono">Sponsored by</span>
         <svg

@@ -83,6 +83,16 @@ export default function About() {
             Languine.
           </p>
         </section>
+
+        <section>
+          <h2 className="text-xl mb-2">Disclaimer</h2>
+          <p className="text-[#878787] leading-relaxed text-sm">
+            Cursor Directory is an independent community project. We are not
+            affiliated with, endorsed by, or sponsored by Anysphere Inc., the
+            creators of Cursor. This site is built by the community, for the
+            community.
+          </p>
+        </section>
       </div>
 
       <Image
