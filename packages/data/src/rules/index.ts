@@ -54,6 +54,7 @@ import { pythonRules } from "./python";
 import { railsRules } from "./rails";
 import { reactNativeRules } from "./react-native";
 import { remixRules } from "./remix";
+import { remultRules } from "./remult";
 import { robocorpRules } from "./robocorp";
 import { rspecRules } from "./rspec";
 import { rustRules } from "./rust";
@@ -134,6 +135,7 @@ export const rules: Rule[] = [
   ...pythonRules,
   ...railsRules,
   ...reactNativeRules,
+  ...remultRules,
   ...remixRules,
   ...robocorpRules,
   ...rspecRules,
